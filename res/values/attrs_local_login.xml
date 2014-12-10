@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+	 Anem a declarar el nou atribut i l'associem 
+	 al control ControlLogin. 
+ -->
+<resources>
+<!-- 
+
+	 Afegim una nova secció <declare-styleable> associada a ControlLogin 
+	 dins de l'element <resources>, on indicarem el nom (name) i el tipus (format) 
+	 del nou atribut.
+
+ -->
+	<declare-styleable name="ControlLogin">
+<!-- 
+		En aquest cas, el tipus de l'atribut serà string, 
+		ja que contindrà una cadena de text amb el missatge 
+		a mostrar al botó.(Entrar)
+ -->	    
+		<attr name="login_text1" format="string"/>
+	</declare-styleable>
+</resources>

@@ -1,0 +1,22 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ntb="http://schemas.android.com/apk/res/com.iesebre.dam2.pa201415.nicolae"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip"  >
+
+<!-- 
+
+	Fem referència a l'interficie fent utilitzant la ruta completa del seu paquet java. 
+	
+	D'aquesta manera s'inserirà el nou control en l'activitat principal de l'aplicació. 
+
+-->
+    <com.iesebre.dam2.pa201415.nicolae.localLogin.ControlLogin 
+        android:id="@+id/CtlLogin" 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	ntb:login_text1="Entrar"
+    	/>
+
+</LinearLayout>
